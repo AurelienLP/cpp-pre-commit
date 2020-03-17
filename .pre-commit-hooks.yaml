@@ -1,0 +1,14 @@
+- id: "clang-format"
+  name: "clang-format"
+  description: "Format files with ClangFormat."
+  entry: "clang-format"
+  language: system
+  files: \.(c|cc|cxx|cpp|h|hpp|hxx)$
+  args: ["-fallback-style=none", "-i"]
+- id: "clang-format-9"
+  name: "clang-format-9"
+  description: "Format files with ClangFormat v9."
+  entry: "clang-format-9"
+  language: system
+  files: \.(c|cc|cxx|cpp|h|hpp|hxx)$
+  args: ["-fallback-style=none", "-i"]
