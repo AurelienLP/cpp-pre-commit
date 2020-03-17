@@ -4,9 +4,11 @@
 
 ## Installation
 
-`sudo apt update && apt-get install -y python3-pip`
-`pip3 install pre-commit`
-`pre-commit install`
+```bash
+sudo apt update && apt-get install -y python3-pip
+pip3 install pre-commit
+pre-commit install
+```
 
 ## Using the hooks
 
